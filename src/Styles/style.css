@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 167, 255);   
+    height: 60px;
+    width: 100%;
+}
+
+main {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 14, 44);
+}
+
+.div--main {
+    height: 500px;
+    width: 400px;
+    background-color: rgb(111, 130, 167);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button--styleAdd{
+    position: absolute;
+    top: 44%;
+    left: 46%;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+li{
+    height: 60px;
+    width: 200px;
+    list-style: none;
+}
+
+.input--style {
+    height: 30px;
+    width: 120px;
+    outline: none;
+    border: 2px solid rgb(111, 130, 167);
+    background-color: rgba(255, 255, 255, 0.863);
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.input--style:hover{
+    border: 2px solid rgb(4, 14, 44);   
+}
+
+.div--dinamic {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(32, 156, 194, 0.753);
+    border: 2px solid rgb(14, 167, 255);   
+    margin: 8px;
+}
+
+ul {
+    overflow: auto;
+    height: 200px;
+    width: 220px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(14, 167, 255);   
+}
